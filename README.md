@@ -1,16 +1,20 @@
  Plant Disease Detection using PyTorch
 
  Project Title
+ 
  Plant Disease Detection using Deep Learning and PyTorch**
 
 
 
  Brief One Line Summary
+ 
  An intelligent deep learning-based system that automatically detects and classifies plant diseases from leaf images using Convolutional Neural Networks (CNN) and PyTorch, helping farmers identify diseases at an early stage.
 
 
 
  Overview
+
+ 
  Agriculture plays a vital role in the economy, and plant diseases are one of the major reasons for reduced crop production and quality. Traditionally, farmers rely on manual inspection to identify diseases, which can be time-consuming and inaccurate.
 
  This project uses Deep Learning, Computer Vision, and PyTorch to build an automated plant disease detection system. The system analyzes leaf images and predicts the disease category by learning patterns, colors, and textures present in diseased leaves. Early detection can help farmers take timely action and reduce crop losses.
@@ -18,9 +22,14 @@
 
 
  Problem Statement
+
+ 
  Plant diseases can spread rapidly and severely affect agricultural productivity. Most farmers do not have immediate access to agricultural experts, making early disease identification difficult.
 
  The objective of this project is to develop an automated image classification system capable of:
+
+
+ 
   Detecting diseases from plant leaf images.    
   Classifying leaves into different disease categories.
   Reducing dependency on manual inspection.
@@ -30,6 +39,8 @@
 
 
   Dataset
+
+  
   Healthy and diseased plant leaf images
   Multiple disease classes
   Training, validation, and test datasets
@@ -38,6 +49,8 @@
 
 
   Tools and Technologies
+
+  
   Python
   PyTorch
   Torchvision
@@ -51,6 +64,8 @@
 
 
  Methods
+
+ 
 1. Data Collection and Loading
 2. Image Preprocessing and Augmentation
 3. Data Visualization and Analysis
